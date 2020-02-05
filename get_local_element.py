@@ -1,6 +1,6 @@
 #coding=utf-8
 import sys
-sys.path.append('D:\\自动化测试学习')
+sys.path.append('E:\\Python_selenium_first')
 from read_init import ReadIni
 from open_browser import selenium_driver
 readini = ReadIni()

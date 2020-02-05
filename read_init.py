@@ -2,10 +2,10 @@
 import configparser
 class ReadIni:
     '''
-    读取配置文件，默认路径为“D:\自动化测试学习\config\LocalElement.ini”
+    读取配置文件，默认路径为“E:\Python_selenium_first\config\LocalElement.ini”
     '''
     def __init__(self):
-        self.data = self.load_ini("D:\自动化测试学习\config\LocalElement.ini")
+        self.data = self.load_ini("E:\Python_selenium_first\config\LocalElement.ini")
 
     def load_ini(self, path):
         cf = configparser.ConfigParser()
